@@ -17,9 +17,11 @@ function App() {
   return (
 
     <div>
+
+      {/* Hero Section */}
       <div style={{height: '100vh', backgroundImage: `url(${require("./images/mountain.jpg")})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
         <Navbar links={links} logo={logo}/>
-        {/* <Slider /> */}
+        <div className='pt-52'><Slider /></div>
       </div>
 
     </div>
