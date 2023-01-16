@@ -13,7 +13,7 @@ function Navbar({links, logo}) {
 
   return (
 
-    <nav className={`bg-slate-500 text-white py-3 px-5 flex justify-around items-end flex-col lg:flex-row border-b-2 border-white fixed w-full dark:bg-black`}>
+    <nav className={`bg-transparent text-white py-3 px-5 flex justify-around items-end flex-col lg:flex-row border-b-2 border-white fixed w-full`}>
 
         {/* Logo */}
         <span className="lg:block hidden cursor-pointer"><img src={logo.Image}></img></span>

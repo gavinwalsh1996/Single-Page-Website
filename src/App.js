@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Image from './images/logo.png'
 
 //Components
 import Navbar from './components/Navbar'
@@ -16,9 +17,11 @@ function App() {
   return (
 
     <div>
-      <Navbar links={links} logo={logo}/>
-      {/* <Slider /> */}
-      <DarkModeSwitch />
+      <div style={{height: '100vh', backgroundImage: `url(${require("./images/mountain.jpg")})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+        <Navbar links={links} logo={logo}/>
+        {/* <Slider /> */}
+      </div>
+
     </div>
 
   )
