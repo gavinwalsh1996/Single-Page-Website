@@ -1,7 +1,11 @@
 import React, { useState } from 'react'
+
+//Components
 import Navbar from './components/Navbar'
-import "@fontsource/syne"
-import Logo from './images/logo.png'
+import Slider from './components/Slider'
+import DarkModeSwitch from './components/DarkModeSwitch'
+import "@fontsource/syne" // Font
+import Logo from './images/logo.png' //Logo
 
 function App() {
 
@@ -13,6 +17,8 @@ function App() {
 
     <div>
       <Navbar links={links} logo={logo}/>
+      {/* <Slider /> */}
+      <DarkModeSwitch />
     </div>
 
   )
