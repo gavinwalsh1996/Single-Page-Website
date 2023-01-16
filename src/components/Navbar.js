@@ -5,6 +5,8 @@ import Logo from '../images/logo.png'
 
 function Navbar() {
 
+    //test
+
     // State to open and close nav bar on mobile
   const [isOpen, setIsOpen] = useState(false);
 
