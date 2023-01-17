@@ -11,6 +11,8 @@ import DarkModeSwitch from './components/DarkModeSwitch'
 import FeaturesGrid from './components/FeaturesGrid'
 import "@fontsource/syne" // Font
 import Logo from './images/logo.png' //Logo
+import PriceCards from './components/PriceCards'
+import Elipse from './components/Elipse'
 
 function App() {
 
@@ -55,9 +57,11 @@ function App() {
         </div>
       </div>
 
-      {/* Features */}
-      <div className='dark:bg-slate-900'>
+      {/* Features & Pricing */}
+      <div className='dark:bg-slate-900 sm:px-64 px-0'>
         <FeaturesGrid />
+        <PriceCards />
+        <Elipse />
       </div>
 
     </div>
