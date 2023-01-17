@@ -10,10 +10,28 @@ function Navbar({links, logo}) {
     // State to open and close nav bar on mobile
     const [isOpen, setIsOpen] = useState(false);
 
+    //State to track scroll for navbar
+    const [scrolled, setScrolled] = useState(false);
+
+    // Function to handle scroll event and to update the scroll state. 
+    useEffect(() => {
+      const handleScroll = () => {
+        if (window.scrollY > 0) {
+          setScrolled(true);
+        } else {
+          setScrolled(false);
+        }
+      }
+
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+
 
   return (
 
-    <nav className={`bg-transparent text-white py-3 px-5 flex justify-around items-end flex-col lg:flex-row border-b-2 border-white fixed w-full`}>
+    <nav className={`bg-transparent text-white py-3 px-5 flex justify-around items-end flex-col lg:flex-row border-b-2 border-white fixed w-full z-50 ${scrolled ? 'bg-slate-400 dark:bg-slate-900' : ''}`}>
 
         {/* Logo */}
         <span className="lg:block hidden cursor-pointer"><img src={logo.Image}></img></span>

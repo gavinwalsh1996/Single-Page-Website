@@ -8,6 +8,7 @@ import MountainNight from './images/mountain-night.jpg'
 import Navbar from './components/Navbar'
 import Slider from './components/Slider'
 import DarkModeSwitch from './components/DarkModeSwitch'
+import FeaturesGrid from './components/FeaturesGrid'
 import "@fontsource/syne" // Font
 import Logo from './images/logo.png' //Logo
 
@@ -52,6 +53,11 @@ function App() {
           <Slider />
           <DarkModeSwitch handleThemeSwitch={handleThemeSwitch} theme={theme} />
         </div>
+      </div>
+
+      {/* Features */}
+      <div className='p-32 dark:bg-slate-900'>
+        <FeaturesGrid />
       </div>
 
     </div>

@@ -9,7 +9,7 @@ function DarkModeSwitch({handleThemeSwitch, theme}) {
   return (
 
     // Will need to change padding to parent div
-    <div className="pt-32"> 
+    <div className="pt-32 fixed"> 
         <span className="cursor-pointer">
             {theme === 'dark' 
             ? <span className="flex gap-2 italic"><DarkModeIcon sx={{fontSize: 35, color: 'white'}} onClick={handleThemeSwitch} className='bg-yellow-400 h-14 rounded-2xl hover:bg-purple-400' /><span className="text-white">Dark</span></span> 
