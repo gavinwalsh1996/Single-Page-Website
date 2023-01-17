@@ -56,7 +56,7 @@ function App() {
       </div>
 
       {/* Features */}
-      <div className='p-32 dark:bg-slate-900'>
+      <div className='dark:bg-slate-900'>
         <FeaturesGrid />
       </div>
 
