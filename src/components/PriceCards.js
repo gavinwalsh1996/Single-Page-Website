@@ -3,6 +3,7 @@ import React from 'react'
 //Components
 import HeadingSubHeading from './HeadingSubHeading'
 import PriceCard from './PriceCard'
+import Elipse from './Elipse'
 
 //Headings props to pass to Heading component
 const headings = {
@@ -25,6 +26,7 @@ return (
             <PriceCard title="BUSINESS" price="$19" />
             <PriceCard title="ENTERPRISE" price="$29" />
         </div>
+        <Elipse />
     </div>
 
   )

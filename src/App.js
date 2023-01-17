@@ -12,7 +12,7 @@ import FeaturesGrid from './components/FeaturesGrid'
 import "@fontsource/syne" // Font
 import Logo from './images/logo.png' //Logo
 import PriceCards from './components/PriceCards'
-import Elipse from './components/Elipse'
+import ContentGrid from './components/ContentGrid'
 
 function App() {
 
@@ -51,9 +51,9 @@ function App() {
       {/* Hero Section */}
       <div style={{height: '100vh', backgroundImage: `url(${backgroundImage})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
         <Navbar links={links} logo={logo}/>
+        <DarkModeSwitch handleThemeSwitch={handleThemeSwitch} theme={theme} />
         <div className='pt-52'>
           <Slider />
-          <DarkModeSwitch handleThemeSwitch={handleThemeSwitch} theme={theme} />
         </div>
       </div>
 
@@ -62,7 +62,7 @@ function App() {
       <div className='dark:bg-slate-900'>
         <FeaturesGrid />
         <PriceCards />
-        <Elipse />
+        <ContentGrid />
       </div>
 
     </div>
