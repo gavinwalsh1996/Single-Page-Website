@@ -58,7 +58,8 @@ function App() {
       </div>
 
       {/* Features & Pricing */}
-      <div className='dark:bg-slate-900 sm:px-64 px-0'>
+      {/* sm:px-64 px-0 */}
+      <div className='dark:bg-slate-900'>
         <FeaturesGrid />
         <PriceCards />
         <Elipse />

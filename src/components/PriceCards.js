@@ -10,14 +10,20 @@ const headings = {
     subHeading: 'Flexible & Easy pricing for wide audience groups.'
 }
 
+
 function PriceCards() {
 
 return (
 
    <div>
         <HeadingSubHeading headings={headings}/>
-        <div className='grid sm:grid-cols-4 grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 p-10'>
-            <PriceCard />
+        {/* <PriceCard /> */}
+
+        <div className="flex flex-wrap justify-center items-center gap-1">
+            <PriceCard title="STARTER" price="$7" />
+            <PriceCard title="PROFESSIONAL" price="$12" />
+            <PriceCard title="BUSINESS" price="$19" />
+            <PriceCard title="ENTERPRISE" price="$29" />
         </div>
     </div>
 
