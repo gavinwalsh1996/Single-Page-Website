@@ -26,7 +26,7 @@ function FeaturesGrid() {
 
   return (
 
-    <div className='mt-32 mb-32'>
+    <div className=''>
         <HeadingSubHeading headings={headings}/>
 
         <div className="grid sm:grid-cols-3">

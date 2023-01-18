@@ -60,14 +60,13 @@ function App() {
       </div>
 
       {/* Features & Pricing */}
-      {/* sm:px-64 px-0 */}
-      <div className='dark:bg-slate-900'>
+      <div className='dark:bg-slate-900 sm:ml-4 sm:mr-4 md:ml-8 md:mr-8 lg:ml-16 lg:mr-16 xl:ml-32 xl:mr-32'>
         <FeaturesGrid />
         <PriceCards />
         <ContentGrid />
         <StartersGuide />
-        <Footer />
       </div>
+      <Footer />
 
     </div>
 

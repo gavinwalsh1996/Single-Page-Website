@@ -13,7 +13,7 @@ function ContentGrid() {
 
   return (
 
-    <div className='mt-32 mb-32'>
+    <div className=''>
         <HeadingSubHeading headings={headings}/>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 text-center p-10">

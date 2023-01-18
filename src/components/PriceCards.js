@@ -16,7 +16,7 @@ function PriceCards() {
 
 return (
 
-   <div className='mt-32 mb-32'>
+   <div className=''>
         <HeadingSubHeading headings={headings}/>
         {/* <PriceCard /> */}
 
