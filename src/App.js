@@ -3,14 +3,16 @@ import React, { useState, useEffect } from 'react'
 //Images
 import MountainDay from './images/mountaindaytime.jpg'
 import MountainNight from './images/mountain-night.jpg'
+import Logo from './images/logo.png' //Logo
+
+//Font
+import "@fontsource/syne" //Font
 
 //Components
 import Navbar from './components/Navbar'
 import Slider from './components/Slider'
 import DarkModeSwitch from './components/DarkModeSwitch'
 import FeaturesGrid from './components/FeaturesGrid'
-import "@fontsource/syne" // Font
-import Logo from './images/logo.png' //Logo
 import PriceCards from './components/PriceCards'
 import ContentGrid from './components/ContentGrid'
 import StartersGuide from './components/StartersGuide'
@@ -22,9 +24,16 @@ function App() {
   const [links] = useState(['HOME', 'FEATURES', 'PAGES', 'PORTFOLIO', 'BLOG', 'SHOP', 'SHORTCODES']);
   const [logo] = useState({Image: Logo})
 
-  // Dark Mode
+  //State for background images *Night and Dark mode*
+  const [backgroundImage, setBackgroundImage] = useState(MountainDay);
+  
+  const changeBackgroundImage = () => {
+    setBackgroundImage(backgroundImage === MountainDay ? MountainNight : MountainDay);
+  }
+    
+  //Dark Mode function to handle onClick event. Calls state setter function to update the theme from dark/light => light/dark
   const handleThemeSwitch = () => {
-    setTheme(theme === 'dark' ? 'light' : 'dark')
+    setTheme(theme === 'dark' ? 'light' : 'dark') //Ternary operator is used for conditional changes 
     changeBackgroundImage()
   }
 
@@ -36,15 +45,8 @@ function App() {
       } else {
           document.documentElement.classList.remove('dark');
       }
-  }, [theme])
+  }, [theme]) //UseEffect hook is used to make the class changes whenever the 'theme' state value is changed
 
-  //State for background image
-  const [backgroundImage, setBackgroundImage] = useState(MountainDay);
-  
-  const changeBackgroundImage = () => {
-    setBackgroundImage(backgroundImage === MountainDay ? MountainNight : MountainDay);
-  }
-  
 
   return (
 
@@ -59,15 +61,15 @@ function App() {
         </div>
       </div>
 
-      {/* Features & Pricing */}
+      {/* Features & Pricing. Used Tailwinds media query selector to adjust the margin values on different screen sizes */}
       <div className='dark:bg-slate-900 sm:ml-4 sm:mr-4 md:ml-8 md:mr-8 lg:ml-16 lg:mr-16 xl:ml-32 xl:mr-32'>
         <FeaturesGrid />
         <PriceCards />
         <ContentGrid />
         <StartersGuide />
       </div>
-      <Footer />
-
+      {/* Footer */}
+        <Footer />
     </div>
 
   )

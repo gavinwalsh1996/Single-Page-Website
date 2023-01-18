@@ -21,6 +21,7 @@ function Footer() {
         <h5 className="font-medium">Copyrights <CopyrightIcon/> 2022 All rights reserved by Deveire</h5>
         <p className="text-sm">Terms of use / Privacy Policy</p>
     </div>
+    
     <div className="flex justify-between items-center sm:w-1/3">
         <div className="text-center flex flex-col justify-start items-start gap-4">
             <span className='flex gap-6 cursor-pointer'><FacebookIcon/><TwitterIcon/><GoogleIcon/><PinterestIcon/><GitHub/><LinkedInIcon/></span>
