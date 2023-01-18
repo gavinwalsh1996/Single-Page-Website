@@ -42,6 +42,7 @@ function Slider() {
   }
 
   return (
+  
     <div className='h-80 flex justify-between items-center'>
       <ArrowBackIosIcon style={{fontSize: 35, color: 'white', height: '4rem'}} className='bg-gray-900 opacity-30 rounded-md cursor-pointer' onClick={handlePrev} />
       <span className='text-center flex flex-col gap-6'>
@@ -50,6 +51,7 @@ function Slider() {
       </span>
       <ArrowForwardIosIcon style={{fontSize: 35, color: 'white', height: '4rem'}} className='bg-gray-900 opacity-30 rounded-md cursor-pointer' onClick={handleNext} />
     </div>
+    
   )
 }
 

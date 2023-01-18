@@ -31,10 +31,10 @@ function Navbar({links, logo}) {
 
   return (
 
-    <nav className={`bg-transparent text-white py-3 px-5 flex justify-around items-end flex-col lg:flex-row border-b-2 border-white fixed w-full z-50 ${scrolled ? 'bg-slate-400 dark:bg-slate-900' : ''}`}>
+    <nav className={`bg-transparent text-white py-3 px-5 flex justify-around items-end flex-col lg:flex-row border-b-2 border-white fixed w-full z-50 ${scrolled ? 'bg-slate-900 dark:bg-slate-900' : ''}`}>
 
         {/* Logo */}
-        <span className="lg:block hidden cursor-pointer"><img src={logo.Image}></img></span>
+        <span className="lg:block hidden cursor-pointer"><img src={logo.Image} alt='Logo'></img></span>
 
         {/* Button for mobile nav */}
       <button className="block lg:hidden" onClick={() => setIsOpen(!isOpen)}>

@@ -26,7 +26,7 @@ function FeaturesGrid() {
 
   return (
 
-    <>
+    <div className='mt-32 mb-32'>
         <HeadingSubHeading headings={headings}/>
 
         <div className="grid sm:grid-cols-3">
@@ -41,7 +41,7 @@ function FeaturesGrid() {
 
         <Elipse />
 
-    </>
+    </div>
 
   )
 }

@@ -13,12 +13,14 @@ import "@fontsource/syne" // Font
 import Logo from './images/logo.png' //Logo
 import PriceCards from './components/PriceCards'
 import ContentGrid from './components/ContentGrid'
+import StartersGuide from './components/StartersGuide'
+import Footer from './components/Footer'
 
 function App() {
 
   //Links & Logo
-  const [links, setLinks] = useState(['HOME', 'FEATURES', 'PAGES', 'PORTFOLIO', 'BLOG', 'SHOP', 'SHORTCODES']);
-  const [logo, setLogo] = useState({Image: Logo})
+  const [links] = useState(['HOME', 'FEATURES', 'PAGES', 'PORTFOLIO', 'BLOG', 'SHOP', 'SHORTCODES']);
+  const [logo] = useState({Image: Logo})
 
   // Dark Mode
   const handleThemeSwitch = () => {
@@ -46,7 +48,7 @@ function App() {
 
   return (
 
-    <div>
+    <div className='dark:bg-slate-900 bg-white'>
 
       {/* Hero Section */}
       <div style={{height: '100vh', backgroundImage: `url(${backgroundImage})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
@@ -63,6 +65,8 @@ function App() {
         <FeaturesGrid />
         <PriceCards />
         <ContentGrid />
+        <StartersGuide />
+        <Footer />
       </div>
 
     </div>
