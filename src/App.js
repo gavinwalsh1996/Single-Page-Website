@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 
 //Images
-import MountainDay from './images/mountain.jpg'
+import MountainDay from './images/mountaindaytime.jpg'
 import MountainNight from './images/mountain-night.jpg'
 
 //Components
