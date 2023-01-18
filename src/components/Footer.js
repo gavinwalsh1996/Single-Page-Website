@@ -16,7 +16,7 @@ function Footer() {
 
   return (
 
-  <footer className="bg-gray-900 dark:bg-slate-600 text-white p-4 h-40 flex flex-col justify-center items-center sm:flex-row">
+  <footer className="bg-gray-900 dark:bg-slate-600 text-white p-4 h-60 flex flex-col justify-center items-center sm:flex-row">
     <div className="w-full text-center flex flex-col justify-start items-start gap-4 sm:w-1/3">
         <h5 className="font-medium">Copyrights <CopyrightIcon/> 2022 All rights reserved by Deveire</h5>
         <p className="text-sm">Terms of use / Privacy Policy</p>

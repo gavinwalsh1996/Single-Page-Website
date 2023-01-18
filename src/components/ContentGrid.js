@@ -10,14 +10,14 @@ const headings = {
 }
 
 
-const content = Array.from({length:5}, () => (
+const content = Array.from({length:5}, () => ( // Array.from method creates 5 new copies of the content array
     {
-        heading: 'Q. How do I become an author?',
-        paragraph: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, 
-                    consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.`     
+    heading: 'Q. How do I become an author?',
+    paragraph: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.`     
     }
 ));
 
@@ -25,7 +25,7 @@ function ContentGrid() {
 
   return (
 
-    <div className='mt-32 mb-32'>
+    <div>
         <HeadingSubHeading headings={headings}/>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 text-center p-10">

@@ -52,7 +52,7 @@ function Slider() {
        onClick={handlePrev} />
       {/* Heading and subHeading values */}
       <span className='text-center flex flex-col gap-6'>
-        <h1 style={{fontSize: '24px', fontWeight: '800', letterSpacing: '3.2px', color: 'white'}}>
+        <h1 className='sm:text-4xl text-xl font-medium' style={{fontWeight: '800', letterSpacing: '3.2px', color: 'white'}}>
         {slides[currentSlide].heading}
         </h1>
         <h3 className='text-white text-xl'>{slides[currentSlide].subHeading}</h3>
