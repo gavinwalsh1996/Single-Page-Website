@@ -53,7 +53,8 @@ function Navbar({links, logo}) { // Navbar receives logo and links props from pa
         {/* Header Links */}
         {/* Ternary operator toggles the display value of elements based on current state */}
       <div className={`${ isOpen ? "block" : "hidden" } lg:flex lg:items-center lg:w-auto h-screen lg:h-20`} >
-        <div className="flex flex-col text-sm lg:flex-grow lg:flex-row gap-12 sm:p-0 p-5">
+         {/* I added background blur to contrast the mobile header as the bg color only starts to show on scroll */}
+        <div className="flex flex-col text-sm lg:flex-grow lg:flex-row gap-12 sm:p-0 p-5 backdrop-blur-3xl lg:backdrop-blur-0">
             {/* using .map method to map through the links array*/}
             {links.map((link) => ( 
                 <>

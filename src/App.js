@@ -51,25 +51,34 @@ function App() {
   return (
 
     <div className='dark:bg-slate-900 bg-white'>
-
-      {/* Hero Section */}
-      <div style={{height: '100vh', backgroundImage: `url(${backgroundImage})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
-        <Navbar links={links} logo={logo}/>
-        <DarkModeSwitch handleThemeSwitch={handleThemeSwitch} theme={theme} />
-        <div className='pt-52'>
-          <Slider />
+      {/* Header, DarkMode Switch & HeroSlider Section */}
+      <header>
+        <div style={{height: '100vh', backgroundImage: `url(${backgroundImage})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+          <Navbar links={links} logo={logo}/>
+          <DarkModeSwitch handleThemeSwitch={handleThemeSwitch} theme={theme} />
+          <div className='pt-52'>
+            <Slider />
+          </div>
         </div>
-      </div>
+      </header>
 
-      {/* Features & Pricing. Used Tailwinds media query selector to adjust the margin values on different screen sizes */}
-      <div className='dark:bg-slate-900 sm:ml-4 sm:mr-4 md:ml-8 md:mr-8 lg:ml-16 lg:mr-16 xl:ml-32 xl:mr-32'>
-        <FeaturesGrid />
-        <PriceCards />
-        <ContentGrid />
-        <StartersGuide />
-      </div>
-      {/* Footer */}
+      {/* Main Section conatins all of the main features on the webpage */}
+      <main>
+        <section>
+           {/* Used Tailwinds media query selector to adjust the margin values on different screen sizes */}
+          <div className='dark:bg-slate-900 sm:ml-4 sm:mr-4 md:ml-8 md:mr-8 lg:ml-16 lg:mr-16 xl:ml-32 xl:mr-32'>
+            <FeaturesGrid />
+            <PriceCards />
+            <ContentGrid />
+            <StartersGuide />
+          </div>
+        </section>
+      </main>
+
+      {/* Footer Section */}
+      <footer>
         <Footer />
+      </footer>
     </div>
 
   )
