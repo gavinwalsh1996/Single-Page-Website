@@ -24,7 +24,13 @@ function Footer() {
     
     <div className="flex justify-between items-center sm:w-1/3">
         <div className="text-center flex flex-col justify-start items-start gap-4">
-            <span className='flex gap-6 cursor-pointer'><FacebookIcon/><TwitterIcon/><GoogleIcon/><PinterestIcon/><GitHub/><LinkedInIcon/></span>
+            <span className='flex gap-6 cursor-pointer'>
+              <FacebookIcon sx={{"&:hover": {color: "#00acee"}}}/>
+              <TwitterIcon sx={{"&:hover": {color: "#00acee"}}}/>
+              <GoogleIcon sx={{"&:hover": {color: "#00acee"}}}/>
+              <PinterestIcon sx={{"&:hover": {color: "#00acee"}}}/>
+              <GitHub sx={{"&:hover": {color: "#00acee"}}}/>
+              <LinkedInIcon sx={{"&:hover": {color: "#00acee"}}}/></span>
             <span className='flex flex-wrap text-xs gap-2 cursor-pointer'><MailOutlineIcon/>Info@deveire.com <HeadphonesIcon/> +91-11-6541-6369 <TagFacesIcon/> CanvasOnSkype</span>
         </div>
     </div>

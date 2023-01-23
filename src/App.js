@@ -47,7 +47,6 @@ function App() {
       }
   }, [theme]) //UseEffect hook is used to make the class changes whenever the 'theme' state value is changed
 
-
   return (
 
     <div className='dark:bg-slate-900 bg-white'>
@@ -65,7 +64,8 @@ function App() {
       {/* Main Section conatins all of the main features on the webpage */}
       <main>
         <section>
-           {/* Used Tailwinds media query selector to adjust the margin values on different screen sizes */}
+           {/* Used Tailwinds media query selector to adjust the margin values on different screen sizes.
+           All media queries can be found in the tailwind.config file in the src directory.*/}
           <div className='dark:bg-slate-900 sm:ml-4 sm:mr-4 md:ml-8 md:mr-8 lg:ml-16 lg:mr-16 xl:ml-32 xl:mr-32'>
             <FeaturesGrid />
             <PriceCards />
