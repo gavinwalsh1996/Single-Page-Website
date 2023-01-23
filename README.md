@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+<h1>DevEire Coding Challenge</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A single page website coding challenge built using React and styled with Tailwind CSS
 
-## Available Scripts
+<h1>Desktop View Light & Dark mode :</h1>
+
+![light-mode](https://user-images.githubusercontent.com/101522330/213460236-4b010237-ebfa-424a-8a81-7b94d9b5bf4a.png)
+
+![dark-mode](https://user-images.githubusercontent.com/101522330/213460258-a213275c-c2f2-44c8-a93a-6abd5079ee73.png)
+
+<h1>Mobile View:</h1>
+
+![mobile-view](https://user-images.githubusercontent.com/101522330/213460460-f9cd78b1-5cab-4815-bd53-f77478ef5f80.png)
+
+<h1/>Sections<h1/>
+
+<h3>Header & Image Slideshow<h3/>
+
+![light-mode](https://user-images.githubusercontent.com/101522330/213461108-c635ebaa-d5e5-4141-895a-7dfa0ad4e200.png)
+
+<h3>Features Overview</h3>
+
+![features-grid](https://user-images.githubusercontent.com/101522330/213461435-963e5e74-8ed0-4f2e-a057-9130c946ea77.png)
+
+<h3>Price cards</h3>
+
+![product-cards](https://user-images.githubusercontent.com/101522330/213461870-800aa6e7-8fbb-4007-8135-a1c29907537d.png)
+
+<h3>Smart Pricing Content Grid<h3/>
+
+![content-grid](https://user-images.githubusercontent.com/101522330/213462067-e21155dd-b1df-4b68-9453-1e71426e13ba.png)
+
+<h3>Starters Guide & Footer
+
+![startersguide-footer](https://user-images.githubusercontent.com/101522330/213462200-b9d9ee75-d030-45df-b341-2c5d288d19fc.png)
+
+<h1>Summary</h1>
+I was given this design as part of the hiring process to assess my coding ability. The goal of this challenge was to copy a static webpage and recreate some the sections while making it mobile responsive and adding some functionality.
+
+This was a fun project and I definitely found it challenging at times as I decided to style it with Tailwind which is still a new framework for me.
+Tailwind is a great tool and has some great features such as DarkMode but it can be difficult to create pixel perfect designs as you have to make some custom classes to achieve this.
+It was a geat project to practice functionality as I've been focusing a lot on this lately. I really enjoyed creating some of the functions for the slideshow and the dark mode feature. 
+
+With all that been said, I took a lot from this project and definitely improved my overall web design skills which is the end goal of any project.
+
+If I was to improve on this project in the future, I would add some CSS animations for some of the elements and would also set up some routes to build the pages in the navbar.
+
+<h1>Built With</h1>
+
+- React.js
+
+- Tailwind CSS
+
+- Material UI
+
+<h1>Features</h1>
+
+- Mobile responsive 
+
+- Dark & Light mode
+
+- Slideshow
+
+- Dynamic components
+
+- CSS Transitions
+
+<h1>Installation and Useage</h1>
+
+<h3>Install Dependencies</h3>
+
+npm install
 
 In the project directory, you can run:
 
-### `npm start`
+<h3>npm start</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Open http://localhost:3000 to view it in the browser.
 
-### `npm test`
+<h3/>Live Website</h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can view the live site here: https://deveire.netlify.app/
+This is just hosted for the challenge and will be removed when viewed.
