@@ -6,7 +6,7 @@ import MountainNight from './images/mountain-night.jpg'
 import Logo from './images/logo.png' //Logo
 
 //Font
-import "@fontsource/syne" //Font
+import "@fontsource/syne" //Font 
 
 //Components
 import Navbar from './components/Navbar'
@@ -17,6 +17,7 @@ import PriceCards from './components/PriceCards'
 import ContentGrid from './components/ContentGrid'
 import StartersGuide from './components/StartersGuide'
 import Footer from './components/Footer'
+//test
 
 function App() {
 
