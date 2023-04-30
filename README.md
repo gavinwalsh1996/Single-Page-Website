@@ -1,4 +1,4 @@
-<h1>\single Page Website - React/Tailwind</h1>
+<h1>Single Page Website - React/Tailwind</h1>
 
 A single page website built using React and styled with Tailwind CSS
 
@@ -35,7 +35,7 @@ A single page website built using React and styled with Tailwind CSS
 ![startersguide-footer](https://user-images.githubusercontent.com/101522330/213462200-b9d9ee75-d030-45df-b341-2c5d288d19fc.png)
 
 <h1>Summary</h1>
-I was given this design as part of the hiring process to assess my coding ability. The goal of this challenge was to copy a static webpage and recreate some the sections while making it mobile responsive and adding some functionality.
+The goal of this project was to build a static responsive webpage using React and Tailwind.
 
 This was a fun project and I definitely found it challenging at times as I decided to style it with Tailwind which is still a new framework for me.
 Tailwind is a great tool and has some great features such as DarkMode but it can be difficult to create pixel perfect designs as you have to make some custom classes to achieve this.
@@ -82,5 +82,5 @@ Open http://localhost:3000 to view it in the browser.
 
 <h3/>Live Website</h3>
 
-You can view the live site here: https://deveire.netlify.app/
+You can view the live site here: https://singlewebpage.netlify.app/
 This is just hosted for the challenge and will be removed when viewed.
