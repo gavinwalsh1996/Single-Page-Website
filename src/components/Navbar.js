@@ -38,7 +38,7 @@ function Navbar({links, logo}) { // Navbar receives logo and links props from pa
         z-50 ${scrolled ? 'bg-slate-900 dark:bg-slate-900' : ''}`}>
 
         {/* Logo */}
-        <span className="lg:block hidden cursor-pointer"><img src={logo.Image} alt='Logo'></img></span>
+        {/* <span className="lg:block hidden cursor-pointer"><img src={logo.Image} alt='Logo'></img></span> */}
 
         {/* Button for mobile nav. OnClick function toggles the state value*/}
         {/* Ternary operator changes icon based on current value of state*/}

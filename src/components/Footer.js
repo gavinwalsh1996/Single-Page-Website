@@ -18,7 +18,7 @@ function Footer() {
 
   <footer className="bg-gray-900 dark:bg-slate-600 text-white p-4 h-60 flex flex-col justify-around items-center sm:flex-row">
     <div className="w-full text-center flex flex-col justify-start items-start gap-4 sm:w-1/3">
-        <h5 className="font-medium">Copyrights <CopyrightIcon/> 2022 All rights reserved by Deveire</h5>
+        <h5 className="font-medium">Copyrights <CopyrightIcon/> 2022 All rights reserved by Company</h5>
         <p className="text-sm">Terms of use / Privacy Policy</p>
     </div>
     
@@ -31,7 +31,7 @@ function Footer() {
               <PinterestIcon sx={{"&:hover": {color: "#00acee"}}}/>
               <GitHub sx={{"&:hover": {color: "#00acee"}}}/>
               <LinkedInIcon sx={{"&:hover": {color: "#00acee"}}}/></span>
-            <span className='flex flex-wrap text-xs gap-2 cursor-pointer'><MailOutlineIcon/>Info@deveire.com <HeadphonesIcon/> +91-11-6541-6369 <TagFacesIcon/> CanvasOnSkype</span>
+            <span className='flex flex-wrap text-xs gap-2 cursor-pointer'><MailOutlineIcon/>Info@website.com <HeadphonesIcon/> +12-34-5678-9112 <TagFacesIcon/> CanvasOnSkype</span>
         </div>
     </div>
   </footer>

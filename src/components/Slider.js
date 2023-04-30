@@ -7,7 +7,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 //Slides array
 const slides = [
   {
-    heading: 'WELCOME TO DEVEIRE',
+    heading: 'WELCOME TO OUR WEBSITE',
     subHeading: 'Create just what you need for your perfect website. Choose from a wide range of Elements & simply put them on your own Canvas'
   },
   {

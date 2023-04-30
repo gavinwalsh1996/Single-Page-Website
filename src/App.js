@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 //Images
 import MountainDay from './images/mountaindaytime.jpg'
 import MountainNight from './images/mountain-night.jpg'
-import Logo from './images/logo.png' //Logo
+// g
 
 //Font
 import "@fontsource/syne" //Font 
@@ -23,7 +23,7 @@ function App() {
 
   //Links & Logo
   const [links] = useState(['HOME', 'FEATURES', 'PAGES', 'PORTFOLIO', 'BLOG', 'SHOP', 'SHORTCODES']);
-  const [logo] = useState({Image: Logo})
+  // const [logo] = useState({Image: Logo})
 
   //State for background images *Night and Dark mode*
   const [backgroundImage, setBackgroundImage] = useState(MountainDay);
@@ -54,7 +54,7 @@ function App() {
       {/* Header, DarkMode Switch & HeroSlider Section */}
       <header>
         <div style={{height: '100vh', backgroundImage: `url(${backgroundImage})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
-          <Navbar links={links} logo={logo}/>
+          <Navbar links={links}/>
           <DarkModeSwitch handleThemeSwitch={handleThemeSwitch} theme={theme} />
           <div className='pt-52'>
             <Slider />
