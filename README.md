@@ -1,6 +1,6 @@
-<h1>DevEire Coding Challenge</h1>
+<h1>\single Page Website - React/Tailwind</h1>
 
-A single page website coding challenge built using React and styled with Tailwind CSS
+A single page website built using React and styled with Tailwind CSS
 
 <h1>Desktop View Light & Dark mode :</h1>
 
